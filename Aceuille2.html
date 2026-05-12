@@ -1,21 +1,28 @@
+<!-- Exemple d'une page HTML de base -->
+
 <!DOCTYPE html>
-<head>
-    <link rel="stylesheet" href="css/accueil.css">
-    <meta charset="UTF-8">
-    
-      <style>
-      ul {
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Exemple HTML</title>
+		
+		
+				<!-- https://www.w3schools.com/css/css_navbar_vertical.asp -->
+    <style>
+         ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #333333;
       }
-      
+
       ul li {
         float: left;
       }
-      
+
       ul li a {
         display: block;
         color: white;
@@ -23,17 +30,17 @@
         padding: 14px 16px;
         text-decoration: none;
       }
-      
+
       ul li a:hover {
         background-color: #111111;
         color:  #d406c3;
       }
-      
+
       /*https://www.w3schools.com/css/css_font_websafe.asp*/
       body {
         font-family: 'Courier New', monospace;
       }
-      /*https://www.w3schools.com/tags/tag_center.ASP*/  
+        /*https://www.w3schools.com/tags/tag_center.ASP*/  
       h1 {text-align: center;}
       p {text-align: center;}
       div {text-align: center;}
@@ -44,51 +51,59 @@
         margin: auto;
       }
     </style>
-    
-</head>
 
-<body>
-    <ul> 
-        <li><a href="Aceuille2.html"><img src = "https://static.vecteezy.com/system/resources/thumbnails/000/425/085/small/Multimedia__2814_29.jpg" width = "25"style="border-radius: 15px;"></a></li></th>
-    	<li><a href="poem.html">À Propos</a></li></th>
-    </ul>
-    <h1>QuarteJuste !</h1><br>
-    <p>
-    Voici un jeu très amusant et interactif de la part de l'équipe QuarteJuste contenant Jake Paradis et Thomas Keayle, deux étudiant à l'école Paul Desmarais. Nous sommes passionnés par la musique, étant tous les deux des musiciens qualifiés en piano, et Thomas le corps français, violon et ukulélé, et Jake étant clarinettiste, nous sommes excités de vous partager ce jeu éducatif. 
-    <br><br>
-    Pour commencer le Jeu, il faut simplement cliquer sur le niveau de difficulté que vous voulez jouer. Parmi les choix vous avez facile, moyen et difficile. Elles ont toutes un aspect éducatif dans le domaine de la musique.
-    <br><br>
-    En appuyant sur la celle que vous voulez elle t’apportera à la page suivante avec le jeu elle-même. 
-    <br><br>
-    L’objectif du jeu, lui-même, est de tester ta connaissance en musique et de t’amuser.
-    <br><br>
-    Suivez les instructions et trouvez la prochaine note de la pièce générée par notre code !!! 
-    </p>
-    
-    <table border="1">
-        <tr>
-            <td>
-                <h2><u>Facile</u></h2>
-                <!-- source photo : https://www.hoffmanacademy.com/blog/free-beginner-piano-sheet-music-for-adults -->
-                <a href="facile.html"><img src = "facile.jpg"></a>
-            </td>
-            
-            <td>
-                <h2><u>Moyen</u></h2>
-                <!-- source photo : 
-                https://musescore.com/classicman/scores/2076226?srsltid=AfmBOoojg2TJOm0bilunE8_kk8LoYjY-d4ijHnAtUpV9hqJVNSBn8Eh-
-                -->
-                <a href="moyen.html"><img src = "moyen.jpg"></a>
-            </td>
-            
-            <td>
-                <h2><u>Difficile</u></h2>
-                <!-- source photo : 
-                https://www.ficksmusic.com/fr/collections/chopin-etude-in-c-sharp-minor-torrent-op-10-no-4
-                -->
-                <a href="difficile.html"><img src = "difficile.jpg"></a>
-            </td>
-        </tr>
-    </table>
+        	
+	</head>
+	
+	<body>
+    <ul>
+      <!-- Titre -->
+      <li><a href="Aceuille2.html"><img src = "https://static.vecteezy.com/system/resources/thumbnails/000/425/085/small/Multimedia__2814_29.jpg" width = "25"style="border-radius: 15px;"></a></li></th>
+		<li><a href="poem.html">Citation</a></li></th>
+		<li><a href="voyage.html">Voyage</a></li></th>
+		<li><a href="bibliography.html">biographie</a></li></th>
+		</ul>
+      
 
-</body>
+    <h1>Bienvenue</h1> <!-- font a changer -->
+    <p> Voici mon travail pour la tache sommative - portfolio web - ICS3U </p>
+
+          	  <hr> 
+	  <h3>Voici une liste de mes compétences technologiques</h3>
+	  
+	  <center>
+	    
+	    <table border="1">
+      <thead>
+          <th>Sujet</th>
+          <th>Maître</th>
+          <th>Expert</th>
+          <th>Compétent</th>
+          <th>Débutant</th>
+      </thead>
+      <tr>
+        <td>HTML</td>
+        <td><img src = "Photo1.png" width = "150"/></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><img src = "Photo1.png" width = "150"/></td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td></td>
+        <td><img src = "Photo1.png" width = "150"/></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </center>
+  </body>
+
+    
+</html>
